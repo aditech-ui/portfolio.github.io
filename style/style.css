@@ -676,14 +676,14 @@ html {
             
            /********* Typing animation *********/
             .main-content h1{
-                font-size: 25px;
+                font-size: 22px;
                 position: absolute;
-                top: 15%;
+                top: 24%;
             }
            .main-content h2{
             position: absolute;
-            top: 24%;
-            font-size: 20px;
+            top: 30%;
+            font-size: 18px;
             }
            /*.main-content h3{
              position: absolute;
