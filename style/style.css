@@ -626,7 +626,10 @@ html {
     
        @media screen and (max-width:600px){
             header{
-               background: #f7ce3e; 
+               background: #fff; 
+           }
+	   header img{
+               width: 50%;
            }
            ul.nav_links{
                position: absolute;
@@ -667,20 +670,20 @@ html {
            .menu-toggle{
                display: block;
                margin-right: 5px;
-               font-size: 14px;
+               font-size: 20px;
                cursor: pointer;
            }
             
            /********* Typing animation *********/
             .main-content h1{
-                font-size: 16px;
+                font-size: 25px;
                 position: absolute;
                 top: 15%;
             }
            .main-content h2{
             position: absolute;
-            top: 20%;
-            font-size: 14px;
+            top: 24%;
+            font-size: 20px;
             }
            /*.main-content h3{
              position: absolute;
@@ -725,7 +728,7 @@ html {
                font-size: 14px;
            }
            .abt-content .left-content{
-               padding: 0px 30px;
+               padding: 0px;
            }
            .left-content h5{
                font-size: 1.5rem;
@@ -788,7 +791,10 @@ html {
 
          @media screen and (min-width:600px) and (max-width:992px){
              header{
-               background: #f7ce3e;
+               background: #fff;
+           }
+	   header img{
+               width: 50%;
            }
            /*.nav_links{
                display: none;
@@ -845,7 +851,7 @@ html {
            .menu-toggle{
                display: block;
                margin-right: 5px;
-               font-size: 14px;
+               font-size: 20px;
                cursor: pointer;
            }
              
@@ -854,10 +860,10 @@ html {
        .main-content h1{
             color: #fff;
             font-size: 2rem;
-            top: 20%;
+            top: 23%;
         }
         .main-content h2{
-            top: 30%;
+            top: 28%;
             font-size: 2rem;
         } 
         .indicator span{
@@ -876,7 +882,7 @@ html {
             height: 50px;
           } 
          .clear-fix{
-               height: 80px;
+               height: 50px;
            }
         .abt-content h2{
             font-size: 2rem;
